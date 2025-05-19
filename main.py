@@ -27,7 +27,7 @@ def main(page: Page):
     url = "http://192.168.8.14:8001/"
     key = "12345678999"
     page.theme = Theme(font_family="LB")
-    page.update()
+    # page.update()
 
     page.scroll = True
     page.padding = 0
@@ -2436,7 +2436,7 @@ def main(page: Page):
 # threading.Thread(target=close_browser_after_delay, daemon=True).start()
 
 
-app(target=main,assets_dir="./assets/",port=5521,host="0.0.0.0",view=WEB_BROWSER)
+app(target=main,assets_dir="./assets/")
 
 
 
