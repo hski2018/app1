@@ -1,1 +1,3 @@
 flet
+requests
+num2words
