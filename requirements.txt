@@ -1,6 +1,4 @@
 flet
 requests
 num2words
-arabic_reshaper
 reportlab
-python-bidi
